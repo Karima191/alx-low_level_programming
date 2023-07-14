@@ -12,7 +12,7 @@ int main(void)
 {
 	char *c;
 	int *i;
-        float *f;
+	float *f;
 	double *d;
 
 	c = malloc_checked(sizeof(char) * 1024);
@@ -23,9 +23,9 @@ int main(void)
 	printf("%p\n", (void *)f);
 	d = malloc_checked(INT_MAX);
 	printf("%p\n", (void *)d);
-        free(c);
+	free(c);
 	free(i);
 	free(f);
-        free(d);
-        return (0);
+	free(d);
+	return (0);
 }

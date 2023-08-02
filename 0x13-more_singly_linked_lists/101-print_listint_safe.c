@@ -3,13 +3,13 @@
 #include <stdlib.h>
 
 /**
- * size_t print_listint_safe_ prints a listint_t linked list
+ * _r -  size_t print_listint_safe_ prints a listint_t linked list
  * @list: the old list
  * @size: size of the new list
  * @new: new node
  * Return: pointer to the new list
  */
-size_t print_listint_safe(const listint_t *head);
+
 const listint_t **_r(const listint_t **list, size_t size, const listint_t *new)
 {
 	const listint_t **nlist;

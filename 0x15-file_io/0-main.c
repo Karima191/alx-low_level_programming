@@ -10,8 +10,6 @@
 int main(int ac, char **av)
 {
 	ssize_t n;
-	int ac;
-	char **av;
 
 	if (ac != 2)
 	{
